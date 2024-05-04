@@ -32,3 +32,11 @@
   display: grid;
   grid-template-areas: "title button" "description description";
 }
+
+.profile__edit-button {
+  background-image: url("../images/Edit\ Button.svg");
+  width: 24px;
+  height: 24px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+}
