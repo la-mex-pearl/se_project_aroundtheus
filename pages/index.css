@@ -35,4 +35,6 @@
   background: transparent url("../images/edit-button.svg") center no-repeat;
   width: 24px;
   height: 24px;
+  background: #ffffff;
+  border: 1px solid #ffffff;
 }
