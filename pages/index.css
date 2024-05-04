@@ -34,7 +34,7 @@
 }
 
 .profile__edit-button {
-  background: transparent url("../images/edit-button.svg") no-repeat center;
+  background: transparent url("../images/edit-button.svg") center no-repeat;
   width: 24px;
   height: 24px;
 }
