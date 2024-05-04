@@ -13,3 +13,16 @@
   margin-top: 45px;
   border-bottom: 1px solid #545454;
 }
+
+.content {
+}
+
+.profile {
+  max-width: 880px;
+  max-height: 120px;
+}
+
+.profile__img {
+  width: 120px;
+  height: 120px;
+}
