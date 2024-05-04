@@ -20,9 +20,14 @@
 .profile {
   max-width: 880px;
   max-height: 120px;
+  display: flex;
 }
 
 .profile__img {
   width: 120px;
   height: 120px;
+}
+
+.profile__info {
+  display: grid;
 }
