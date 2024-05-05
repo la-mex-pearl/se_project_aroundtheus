@@ -28,7 +28,7 @@
 }
 
 .card__heart-button {
-  background: transparent url("/images/heart.svg") center no-repeat;
+  background: #000 url("/images/heart.svg") center no-repeat;
   width: 21px;
   height: 18px;
 }
