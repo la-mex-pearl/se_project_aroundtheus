@@ -27,6 +27,7 @@
   font-weight: 500;
   grid-area: title;
   margin: 0;
+  white-space: nowrap;
 }
 
 .profile__edit-button {
