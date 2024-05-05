@@ -26,3 +26,9 @@
   line-height: 1.2;
   font-weight: 900;
 }
+
+.card__heart-button {
+  background: transparent url("/images/heart.svg") center no-repeat;
+  width: 21px;
+  height: 18px;
+}
