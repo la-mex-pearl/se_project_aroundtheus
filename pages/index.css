@@ -83,13 +83,15 @@
 }
 
 .card {
+  background-color: #fff;
+  width: 282px;
+  height: 361px;
 }
 
 .card__image {
   width: 282px;
   height: 282px;
   border-radius: 10px 10px 0px 0px;
-  background-color: #fff;
 }
 
 .card__description {
