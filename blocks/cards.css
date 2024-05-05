@@ -26,6 +26,9 @@
   font-size: 24px;
   line-height: 1.2;
   font-weight: 900;
+  position: absolute;
+  top: 307px;
+  padding: 0 69px 25px 20px;
 }
 
 .card__heart-button {
