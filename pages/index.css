@@ -55,6 +55,7 @@
   font-weight: 400;
   line-height: 22px;
   grid-area: description;
+  margin: 0;
 }
 
 .profile__add-button {
