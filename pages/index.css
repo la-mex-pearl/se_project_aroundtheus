@@ -86,6 +86,7 @@
   background-color: #fff;
   width: 282px;
   height: 361px;
+  border-radius: 10px 0px 0px 0px;
 }
 
 .card__image {
