@@ -79,10 +79,13 @@
 }
 
 .card__list {
+  display: grid;
 }
 
 .card {
 }
 
 .card__image {
+  width: 282px;
+  height: 282px;
 }
