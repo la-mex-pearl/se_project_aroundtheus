@@ -18,6 +18,8 @@
     "title button"
     "description description";
   grid-template-columns: minmax(auto, 373px) auto;
+  gap: 0 18px;
+  align-items: center;
 }
 
 .profile__title {
