@@ -25,7 +25,6 @@
 
 .card__description {
   color: #000;
-  padding: 25px 69px 25px 20px;
 }
 
 .card__title {
@@ -37,6 +36,7 @@
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
+  padding: 25px 69px 25px 20px;
 }
 
 .card__heart-button {
