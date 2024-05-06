@@ -16,8 +16,6 @@
   width: 282px;
   height: 361px;
   border-radius: 10px;
-  display: flex;
-  align-items: center;
 }
 
 .card__image {
@@ -28,6 +26,8 @@
 
 .card__description {
   color: #000;
+  display: flex;
+  align-items: center;
 }
 
 .card__title {
