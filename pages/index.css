@@ -17,6 +17,7 @@
   min-height: 100vh;
   width: 100%;
   position: relative;
+  padding: 45px 200px 145px 200px;
 }
 
 .page__section {
