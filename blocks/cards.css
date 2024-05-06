@@ -16,6 +16,8 @@
   width: 282px;
   height: 361px;
   border-radius: 10px;
+  display: flex;
+  align-items: center;
 }
 
 .card__image {
