@@ -36,7 +36,6 @@
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
-  padding: 25px 69px 25px 20px;
 }
 
 .card__heart-button {
