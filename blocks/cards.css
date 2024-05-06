@@ -36,10 +36,10 @@
   line-height: 1.2;
   font-weight: 900;
   width: 193px;
-  padding: 25px 69px 25px 20px;
   margin: 0;
   white-space: nowrap;
   overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .card__heart-button {
