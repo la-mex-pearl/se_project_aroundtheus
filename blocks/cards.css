@@ -5,8 +5,9 @@
   list-style: none;
   padding: 0;
   display: grid;
-  grid-template-columns: repeat(auto-fit, 282px);
+  grid-template-columns: repeat(3, 282px);
   grid-gap: 20px 18px;
+  max-height: 742px;
 }
 
 .card {
