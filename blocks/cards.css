@@ -26,9 +26,7 @@
 
 .card__description {
   color: #000;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  display: grid;
 }
 
 .card__title {
