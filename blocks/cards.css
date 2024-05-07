@@ -28,6 +28,7 @@
   color: #000;
   display: flex;
   position: relative;
+  justify-content: space-between;
 }
 
 .card__title {
@@ -48,6 +49,8 @@
   width: 21px;
   height: 18px;
   border: none;
-  margin: 31px 30px;
+  display: flex;
+  position: relative;
   padding: 0;
+  margin: 31px 30px 0 0;
 }
