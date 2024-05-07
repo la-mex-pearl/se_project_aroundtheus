@@ -27,7 +27,9 @@
 .card__description {
   color: #000;
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "title button";
+  justify-items: flex-end;
 }
 
 .card__title {
@@ -40,7 +42,8 @@
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  padding: 0;
+  padding: 25px 0 25px 20px;
+  grid-area: title;
 }
 
 .card__heart-button {
@@ -49,5 +52,6 @@
   height: 18px;
   border: none;
   padding: 0;
-  margin: 0;
+  margin: 31px 20px 0 0;
+  grid-area: button;
 }
