@@ -26,9 +26,8 @@
 
 .card__description {
   color: #000;
-  display: flex;
-  position: relative;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
 }
 
 .card__title {
@@ -37,11 +36,10 @@
   line-height: 1.2;
   font-weight: 900;
   width: 193px;
-  margin: 25px 0 0 20px;
+  margin: 0;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  display: flex;
   padding: 0;
 }
 
@@ -50,8 +48,6 @@
   width: 21px;
   height: 18px;
   border: none;
-  display: flex;
-  position: relative;
   padding: 0;
-  margin: 31px 30px 0 0;
+  margin: 0;
 }
