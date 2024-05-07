@@ -42,6 +42,7 @@
   overflow: hidden;
   text-overflow: ellipsis;
   display: flex;
+  padding: 0;
 }
 
 .card__heart-button {
