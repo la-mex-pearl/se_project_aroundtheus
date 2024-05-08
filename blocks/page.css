@@ -2,7 +2,7 @@
   background-color: black;
   color: white;
   font-family: Inter, Arial, Arial, Helvetica, sans-serif;
-  margin: 0 auto;
+  margin: 0;
 }
 
 .page__content {
@@ -19,10 +19,10 @@
   width: 100%;
   box-sizing: border-box;
   position: relative;
-  margin: 0 auto;
+  margin: 0;
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 320px) {
   .page {
     width: 100vw;
     margin: 0 auto;
