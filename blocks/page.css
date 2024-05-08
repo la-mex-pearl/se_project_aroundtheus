@@ -18,7 +18,6 @@
   width: 100%;
   box-sizing: border-box;
   position: relative;
-  margin: 0 200px 145px 200px;
 }
 
 @media screen and (max-width: 320px) {
