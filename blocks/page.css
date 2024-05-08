@@ -16,8 +16,6 @@
 }
 
 .page__section {
-  width: 100%;
-  max-width: 880px;
   box-sizing: border-box;
   position: relative;
   margin: 0 auto;
