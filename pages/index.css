@@ -30,7 +30,7 @@
     text-align: center;
   }
 
-  ..profile__title {
+  .profile__title {
     width: 100%;
     font-family: Inter, Arial, Arial, Helvetica, sans-serif;
     font-size: 22px;
