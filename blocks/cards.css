@@ -28,7 +28,6 @@
 .card__description {
   color: #000;
   display: flex;
-  justify-items: flex-end;
 }
 
 .card__title {
@@ -41,7 +40,6 @@
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  padding: 25px 0 25px 20px;
   grid-area: title;
 }
 
