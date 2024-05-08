@@ -14,9 +14,6 @@
   width: 282px;
   height: 361px;
   border-radius: 10px;
-  display: flex;
-  flex-direction: column;
-  list-style: none;
 }
 
 .card__image {
