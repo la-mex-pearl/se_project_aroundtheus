@@ -1,4 +1,5 @@
 .cards {
+  list-style-type: none;
 }
 
 .card__list {
