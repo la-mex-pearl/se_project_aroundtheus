@@ -1,8 +1,8 @@
 .cards {
+  margin: 0 200px 145px 200px;
 }
 
 .card__list {
-  margin: 0 200px 145px 200px;
   padding: 0;
   display: grid;
   grid-template-columns: repeat(auto-fit, 282px);
