@@ -32,6 +32,7 @@
   display: grid;
   grid-template-columns: minmax(auto, 282px);
   align-items: center;
+  margin: 0;
   grid-template-areas: "title button";
 }
 
