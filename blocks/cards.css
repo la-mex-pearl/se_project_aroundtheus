@@ -43,7 +43,6 @@
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  display: grid;
   grid-area: title;
 }
 
