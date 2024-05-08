@@ -1,9 +1,8 @@
 .page {
-  min-width: 320px;
-  max-width: 1280px;
   background-color: black;
   color: white;
   font-family: Inter, Arial, Arial, Helvetica, sans-serif;
+  margin: 0 auto;
 }
 
 .page__content {
@@ -22,10 +21,4 @@
   position: relative;
   margin: 0 auto;
   padding: 0;
-}
-
-@media screen and (max-width: 320px) {
-  .page__content {
-    background-color: palevioletred;
-  }
 }
