@@ -23,3 +23,9 @@
   margin: 0 auto;
   padding: 0;
 }
+
+@media screen and (max-width: 320px) {
+  .page__content {
+    background-color: palevioletred;
+  }
+}
