@@ -59,6 +59,9 @@
 }
 
 @media screen and (max-width: 320px) {
+  .cards {
+    background-color: pink;
+  }
   .card__list {
     padding: 0;
     margin: 36px 19px 98px 19px;
