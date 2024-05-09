@@ -15,7 +15,7 @@
   min-height: 100vh;
   width: 100%;
   margin: 0;
-  padding: 0;
+  padding: 0 200px;
 }
 
 .page__section {
@@ -24,7 +24,6 @@
   box-sizing: border-box;
   position: relative;
   margin: 0;
-  padding: 0;
 }
 
 @media screen and (max-width: 320px) {
