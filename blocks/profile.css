@@ -60,3 +60,9 @@
   border: 2px solid #fff;
   margin-left: auto;
 }
+
+@media screen and (max-width: 480px) {
+  .profile {
+    background-color: aquamarine;
+  }
+}
