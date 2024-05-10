@@ -72,8 +72,8 @@
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    text-align: center;
-    justify-content: space-between;
+
+    justify-content: center;
   }
   .profile__title {
     font-family: "Inter", Arial, Helvetica, sans-serif;
