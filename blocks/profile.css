@@ -74,10 +74,10 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    padding: 0 62px;
   }
 
   .profile__description {
     width: 100%;
-    padding: 0 62px;
   }
 }
