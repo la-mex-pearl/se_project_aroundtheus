@@ -2,7 +2,6 @@
   display: flex;
   align-items: center;
   padding-top: 40px;
-  width: 100%;
 }
 
 .profile__img {
@@ -25,12 +24,12 @@
 }
 
 .profile__title {
-  font-size: 42px;
-  font-family: Inter, Arial, Arial, Helvetica, sans-serif;
-  line-height: 1.2;
-  font-weight: 500;
   grid-area: title;
   margin: 0;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-size: 42px;
+  line-height: 1.2;
+  font-weight: 500;
   white-space: nowrap;
 }
 
@@ -43,11 +42,15 @@
 }
 
 .profile__description {
+  grid-area: description;
+  margin: 0;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 1.2;
-  grid-area: description;
-  margin: 0;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .profile__add-button {
@@ -56,41 +59,4 @@
   height: 50px;
   border: 2px solid #fff;
   margin-left: auto;
-}
-
-@media screen and (max-width: 320px) {
-  .profile {
-    background-color: purple;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .profile__info {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    justify-content: center;
-    padding: 30px 19px 36px;
-  }
-
-  .profile__description {
-    width: 100%;
-    text-align: center;
-  }
-
-  .profile__title {
-    font-family: Inter, Arial, Arial, Helvetica, sans-serif;
-    font-size: 22px;
-    line-height: 1.2;
-    font-weight: 500;
-    text-align: center;
-  }
-
-  .profile__add-button {
-    margin: 0;
-    width: 100%;
-    box-sizing: border-box;
-  }
 }
