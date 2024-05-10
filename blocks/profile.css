@@ -64,7 +64,9 @@
 @media screen and (max-width: 480px) {
   .profile {
     background-color: aquamarine;
+    width: 100%;
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
   }
 }
