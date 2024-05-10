@@ -3,7 +3,7 @@
   padding-top: 30px;
 }
 
-.card__list {
+.cards__list {
   padding: 0;
   margin: 0;
   display: grid;
@@ -71,4 +71,10 @@
   margin-right: 20px;
   margin-bottom: 30px;
   margin-top: 31px;
+}
+
+@media screen and (max-width: 480px) {
+  .profile {
+    background-color: aquamarine;
+  }
 }
