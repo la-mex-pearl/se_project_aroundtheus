@@ -73,10 +73,16 @@
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
   }
 
   .profile__description {
+    width: 100%;
+    text-align: center;
+  }
+
+  .profile__edit-button {
+    margin: 0;
     width: 100%;
   }
 }
