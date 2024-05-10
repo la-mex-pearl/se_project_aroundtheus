@@ -1,7 +1,182 @@
 @import url("../vendor/normalize.css");
 @import url("../vendor/fonts.css");
-@import url("../blocks/cards.css");
-@import url("../blocks/page.css");
-@import url("../blocks/profile.css");
-@import url("../blocks/header.css");
-@import url("../blocks/footer.css");
+
+.page {
+  min-width: 320px;
+  max-width: 1280px;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.page__content {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.page__section {
+  max-width: 880px;
+  width: 100%;
+  position: relative;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.header {
+  padding-top: 45px;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+}
+
+.profile__img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  background-position: center;
+  margin-right: 24px;
+  border-radius: 50%;
+}
+
+.profile__info {
+  display: grid;
+  grid-template-areas:
+    "title button"
+    "description description";
+  grid-template-columns: minmax(auto, 373px) auto;
+  gap: 0 18px;
+  align-items: center;
+}
+
+.profile__title {
+  grid-area: title;
+  margin: 0;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-size: 42px;
+  line-height: 1.2;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.profile__edit-button {
+  background: transparent url("/images/edit-button.svg") center no-repeat;
+  width: 24px;
+  height: 24px;
+  border: 1px solid #fff;
+  grid-area: button;
+}
+
+.profile__description {
+  grid-area: description;
+  margin: 0;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.2;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.profile__add-button {
+  background: transparent url("/images/add-button.svg") center no-repeat;
+  width: 150px;
+  height: 50px;
+  border: 2px solid #fff;
+  margin-left: auto;
+}
+
+.cards {
+  padding-top: 30px;
+  font-family: "Inter", Arial, Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  line-height: 1.2;
+  font-weight: 900;
+}
+
+.card__list {
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 282px);
+  grid-gap: 20px 17px;
+  justify-content: center;
+}
+
+.card {
+  width: 282px;
+  height: 361px;
+  border-radius: 10px;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+
+.card__image {
+  width: 282px;
+  height: 282px;
+  border-radius: 10px 10px 0 0;
+}
+
+.card__description {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  border-radius: 0 0 10px 10px;
+  color: #000;
+  box-sizing: border-box;
+}
+
+.card__title {
+  margin: 0;
+  padding: 25px 0 25px 20px;
+
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  grid-area: title;
+}
+
+.card__heart-button {
+  background: transparent url(/images/heart.svg) center no-repeat;
+  width: 21px;
+  height: 18px;
+  border: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-area: button;
+  margin-left: auto;
+  margin-right: 20px;
+  margin-bottom: 30px;
+  margin-top: 31px;
+}
+
+.footer {
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #545454;
+}
+
+.footer__copyright {
+  margin: 0;
+  padding: 67px 0 60px;
+}
