@@ -78,7 +78,12 @@
     width: 100%;
     text-align: center;
   }
-
+  .profile__edit-button {
+    background: transparent url("/images/edit-button.svg") center no-repeat;
+    width: 18 px;
+    height: 18px;
+    border: 1px solid #fff;
+  }
   .profile__add-button {
     margin: 0;
     width: 100%;
