@@ -26,6 +26,9 @@
 }
 
 @media screen and (max-width: 590px) {
+  .page {
+    width: 100%;
+  }
   .page__content {
     width: 100%;
     min-height: 100vh;
