@@ -61,7 +61,7 @@
   margin-left: auto;
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (max-width: 320px) {
   .profile {
     max-width: 282px;
     max-height: 286px;
