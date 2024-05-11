@@ -23,7 +23,7 @@
   margin: 0 auto;
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (max-width: 320px) {
   .page__content {
     max-width: 320px;
     width: 100%;
