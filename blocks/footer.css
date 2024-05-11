@@ -12,6 +12,10 @@
 }
 
 @media screen and (max-width: 320px) {
+  .footer {
+    margin: 0;
+    padding: 48px 19px 36px;
+  }
   .footer__copyright {
     font-family: "Inter", Arial, Helvetica, sans-serif;
     font-size: 14px;
