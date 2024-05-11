@@ -35,4 +35,8 @@
     background-color: palevioletred;
     max-width: 100%;
   }
+
+  .page__section {
+    max-width: 100%;
+  }
 }
