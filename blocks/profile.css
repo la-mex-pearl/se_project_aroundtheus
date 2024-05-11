@@ -61,7 +61,7 @@
   margin-left: auto;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (320px <= width <= 590px) {
   .profile {
     max-width: 282px;
     width: 100%;
