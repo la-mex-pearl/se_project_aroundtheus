@@ -13,10 +13,12 @@
 
 @media screen and (max-width: 320px) {
   .footer {
+    width: 100%;
     margin: 0;
     padding: 48px 19px 36px;
   }
   .footer__copyright {
+    width: 100%;
     font-family: "Inter", Arial, Helvetica, sans-serif;
     font-size: 14px;
     line-height: 1.2;
