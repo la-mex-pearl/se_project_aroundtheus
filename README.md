@@ -3,19 +3,33 @@
 ### Overview  
 
 * Intro  
-* Figma  
+* Technologies Used  
 * Images  
   
 **Intro**
   
-This project is made so all the elements are displayed correctly on popular screen sizes. We recommend investing more time in completing this project, since it's more difficult than previous ones.  
+Around the U.S. is the third web project designed to showcase the various skills I have learned from the TripleTen Software Engineering course. Utilizing HTML and CSS with Flexbox and Grid methods, the project aims to offer a visually appealing and responsive layout four various popular screen sizes. 
   
-**Figma**  
+**Technologies Used**  
   
-* [Link to the project on Figma](https://www.figma.com/file/ii4xxsJ0ghevUOcssTlHZv/Sprint-3%3A-Around-the-US?node-id=0%3A1)  
+* Figma - (https://www.figma.com/file/ii4xxsJ0ghevUOcssTlHZv/Sprint-3%3A-Around-the-US?node-id=0%3A1)  
+* HTML
+* CSS
+* Flexbox
+* Grid
+* BEM Methodology
+
+
+**Features**  
   
-**Images**  
+1. Responsive Design
+- The project is optimized for various popular screen sizes in order to ensure a semless viewing experienece across devices. 
+2. Flexbox and Grid Layouts
+- These techniques are employed to create a dynamic and flexible page layout in order to enhance usability and visual appeal. 
+3. BEM Methodology
+- This mehtod is utilized for better organization, readability of the CSS codebase. 
   
-The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster. 
-  
-Good luck and have fun!
+
+5. The link to GitHub Pages
+
+
