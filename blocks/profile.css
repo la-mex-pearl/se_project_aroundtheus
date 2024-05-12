@@ -76,7 +76,6 @@
   }
 
   .profile__info {
-    max-width: 282px;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -112,7 +111,6 @@
   .profile__add-button {
     margin-top: 36px;
     padding: 0;
-    max-width: 282;
     width: 100%;
   }
 }
