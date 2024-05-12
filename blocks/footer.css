@@ -11,6 +11,22 @@
   color: #545454;
 }
 
+@media screen and (max-width: 580px) {
+  .footer {
+    width: 100%;
+    margin: 0;
+    padding: 48px 19px 36px;
+  }
+  .footer__copyright {
+    width: 100%;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #545454;
+  }
+}
+
 @media screen and (max-width: 480px) {
   .footer {
     width: 100%;
