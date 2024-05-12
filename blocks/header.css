@@ -6,6 +6,10 @@
   width: 173px;
   height: 33px;
 }
+
+@media screen and (max-width: 680px) {
+}
+
 @media screen and (max-width: 580px) {
   .header {
     max-width: 320px;
