@@ -31,16 +31,11 @@
     max-width: calc(100% - 20px);
   }
 }
-@media screen and (max-width: 780px) {
-  .page {
-    margin: 0 10px;
-    max-width: calc(100% - 20px);
-  }
-}
 
 @media screen and (max-width: 480px) {
   .page {
-    width: 100%;
+    margin: 0 10px;
+    max-width: calc(100% - 20px);
   }
   .page__content {
     width: 100%;

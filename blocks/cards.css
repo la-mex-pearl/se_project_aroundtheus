@@ -73,9 +73,6 @@
   margin-top: 31px;
 }
 
-@media screen and (max-width: 780px) {
-}
-
 @media screen and (max-width: 480px) {
   .cards__list {
     max-width: 100%;
