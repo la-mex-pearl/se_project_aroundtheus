@@ -33,10 +33,6 @@
 }
 
 @media screen and (max-width: 480px) {
-  .page {
-    margin: 0 10px;
-    max-width: calc(100% - 20px);
-  }
   .page__content {
     width: 100%;
     min-height: 100vh;
