@@ -74,6 +74,9 @@
 }
 
 @media screen and (max-width: 880px) {
+  .cards {
+    width: 100%;
+  }
 }
 @media screen and (max-width: 780px) {
   .cards {
