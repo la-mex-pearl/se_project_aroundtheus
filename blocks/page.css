@@ -34,12 +34,10 @@
   .page__content {
     width: 100%;
     min-height: 100vh;
-    align-items: center;
   }
   .page__section {
     width: 100%;
     margin: 0;
-    padding: 0;
   }
 }
 
