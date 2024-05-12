@@ -76,7 +76,7 @@
 @media screen and (max-width: 780px) {
 }
 
-@media screen and (max-width: 590px) {
+@media screen and (max-width: 480px) {
   .cards__list {
     max-width: 100%;
     padding: 0;

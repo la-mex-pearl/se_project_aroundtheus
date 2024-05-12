@@ -10,7 +10,7 @@
 @media screen and (max-width: 780px) {
 }
 
-@media screen and (max-width: 590px) {
+@media screen and (max-width: 480px) {
   .header {
     max-width: 320px;
     width: 100%;
