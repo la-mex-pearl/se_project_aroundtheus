@@ -1,4 +1,3 @@
-@media screen and (max-width: 1280px) {
 .profile {
   display: flex;
   align-items: center;
@@ -61,12 +60,11 @@
   border: 2px solid #fff;
   margin-left: auto;
 }
-}
 
 @media screen and (max-width: 880px) {
 }
 
-@media screen and (max-width: 580px) {
+@media screen and (max-width: 590px) {
   .profile {
     width: 100%;
     display: flex;

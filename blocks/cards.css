@@ -1,83 +1,82 @@
-@media screen and (max-width: 1280px) {
-  .cards {
-    width: 100%;
-    padding-top: 30px;
-  }
-
-  .cards__list {
-    padding: 0;
-    margin: 0;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, 282px);
-    grid-gap: 20px 17px;
-    justify-content: center;
-    list-style-type: none;
-  }
-
-  .card {
-    width: 282px;
-    height: 361px;
-    border-radius: 10px;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    background-color: #fff;
-    box-sizing: border-box;
-  }
-
-  .card__image {
-    width: 282px;
-    height: 282px;
-    border-radius: 10px 10px 0 0;
-  }
-
-  .card__description {
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-    align-items: center;
-    margin: 0;
-    padding: 0;
-    background-color: #fff;
-    border-radius: 0 0 10px 10px;
-    color: #000;
-    box-sizing: border-box;
-  }
-
-  .card__title {
-    margin: 0;
-    padding: 25px 0 25px 20px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    grid-area: title;
-    font-family: "Inter", Arial, Arial, Helvetica, sans-serif;
-    font-size: 24px;
-    line-height: 1.2;
-    font-weight: 900;
-  }
-
-  .card__heart-button {
-    background: transparent url(/images/heart.svg) center no-repeat;
-    width: 21px;
-    height: 18px;
-    border: none;
-    padding: 0;
-    margin: 0;
-    display: grid;
-    grid-area: button;
-    margin-left: auto;
-    margin-right: 20px;
-    margin-bottom: 30px;
-    margin-top: 31px;
-  }
+.cards {
+  width: 100%;
+  padding-top: 30px;
 }
+
+.cards__list {
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 282px);
+  grid-gap: 20px 17px;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.card {
+  width: 282px;
+  height: 361px;
+  border-radius: 10px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+
+.card__image {
+  width: 282px;
+  height: 282px;
+  border-radius: 10px 10px 0 0;
+}
+
+.card__description {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  border-radius: 0 0 10px 10px;
+  color: #000;
+  box-sizing: border-box;
+}
+
+.card__title {
+  margin: 0;
+  padding: 25px 0 25px 20px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  grid-area: title;
+  font-family: "Inter", Arial, Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  line-height: 1.2;
+  font-weight: 900;
+}
+
+.card__heart-button {
+  background: transparent url(/images/heart.svg) center no-repeat;
+  width: 21px;
+  height: 18px;
+  border: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-area: button;
+  margin-left: auto;
+  margin-right: 20px;
+  margin-bottom: 30px;
+  margin-top: 31px;
+}
+
 @media screen and (max-width: 880px) {
 }
 
-@media screen and (max-width: 580px) {
+@media screen and (max-width: 590px) {
   .cards__list {
     max-width: 100%;
     padding: 0;
