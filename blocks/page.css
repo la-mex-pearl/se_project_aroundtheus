@@ -28,7 +28,7 @@
 
 @media screen and (max-width: 880px) {
   .page {
-    margin: 0 auto;
+    
     width: 100%;
   }
   .page__content {
