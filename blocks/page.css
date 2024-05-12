@@ -31,7 +31,11 @@
     max-width: calc(100% - 20px);
   }
 }
-@media screen and (max-width: 880px) {
+@media screen and (max-width: 780px) {
+  .page {
+    margin: 0 10px;
+    max-width: calc(100% - 20px);
+  }
 }
 
 @media screen and (max-width: 590px) {
