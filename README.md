@@ -36,6 +36,9 @@ Around the U.S. is the third web project designed to showcase the various skills
 ![Laptop-2-1280x800](https://github.com/la-mex-pearl/se_project_aroundtheus/assets/163146582/449c5b8c-d032-43be-93ee-b168d448bb7c)
 
 
+https://github.com/la-mex-pearl/se_project_aroundtheus.git
+
+
 
 
 
