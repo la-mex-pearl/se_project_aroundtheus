@@ -14,19 +14,6 @@
   }
 }
 
-@media screen and (max-width: 780px) {
-  .header {
-    width: 100%;
-    padding: 28px 10px 0;
-  }
-}
-@media screen and (max-width: 680px) {
-  .header {
-    width: 100%;
-    padding: 28px 10px 0;
-  }
-}
-
 @media screen and (max-width: 580px) {
   .header {
     max-width: 320px;
