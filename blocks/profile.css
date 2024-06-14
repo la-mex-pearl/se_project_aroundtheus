@@ -31,6 +31,7 @@
   line-height: 1.2;
   font-weight: 500;
   white-space: nowrap;
+  overflow: hidden;
 }
 
 .profile__edit-button {
@@ -158,6 +159,7 @@
     font-weight: 500;
     text-align: center;
     padding-top: 30px;
+    max-width: 196px;
   }
   .profile__edit-button {
     background: transparent url("/images/edit-button.svg") center no-repeat;
