@@ -32,3 +32,5 @@ Around the U.S. is the third web project designed to showcase the various skills
 3. BEM Methodology
 
 - This mehtod is utilized for better organization, readability of the CSS codebase.
+
+https://github.com/la-mex-pearl/se_project_aroundtheus
