@@ -23,20 +23,9 @@
 
 @media screen and (max-width: 580px) {
   .footer {
-    width: 100%;
-    margin: 0;
     padding: 48px 19px 36px;
   }
   .footer__copyright {
-    width: 100%;
     font-size: 14px;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  .footer {
-    width: 100%;
-    margin: 0;
-    padding: 48px 19px 36px;
   }
 }
