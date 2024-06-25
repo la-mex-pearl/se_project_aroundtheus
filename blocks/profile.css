@@ -18,7 +18,7 @@
   grid-template-areas:
     "title image"
     "description description";
-  grid-template-columns: minmax(auto, 373px) auto;
+  grid-template-columns: minmax(auto, 415px) auto;
   gap: 0 18px;
   align-items: center;
 }
@@ -26,16 +26,19 @@
 .profile__title {
   grid-area: title;
   margin: 0;
+
   font-family: "Inter", Arial, Helvetica, sans-serif;
   font-size: 42px;
   line-height: 1.2;
   font-weight: 500;
   white-space: nowrap;
   overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .profile__edit-button {
-  background: transparent url("/images/edit-button.svg") center no-repeat;
+  background: transparent url("/images/edit-vector.svg") center no-repeat;
+  margin-right: 10px;
   width: 24px;
   height: 24px;
   border: 1px solid #fff;
@@ -87,20 +90,13 @@
   }
 }
 
-@media screen and (max-width: 780px) {
-  .profile {
-    max-width: 100%;
-  }
-}
-
 @media screen and (max-width: 580px) {
   .profile {
     max-width: 282px;
     width: 100%;
-    display: flex;
+
     flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+
     padding: 0;
     margin: 0 auto;
     padding-top: 42px;
@@ -119,9 +115,10 @@
     text-align: center;
     padding-top: 30px;
     max-width: 196px;
+    font-size: 22px;
   }
   .profile__edit-button {
-    background: transparent url("/images/edit-button.svg") center no-repeat;
+    background: transparent url("/images/edit-vector.svg") center no-repeat;
     background-size: 7.5px;
     width: 18px;
     height: 18px;
