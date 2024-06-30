@@ -33,4 +33,4 @@ Around the U.S. is the third web project designed to showcase the various skills
 
 - This mehtod is utilized for better organization, readability of the CSS codebase.
 
-https://github.com/la-mex-pearl/se_project_aroundtheus
+https://la-mex-pearl.github.io/se_project_aroundtheus/
