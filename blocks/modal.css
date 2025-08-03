@@ -22,7 +22,7 @@
   justify-content: center;
   padding: 36px 36px 0px 36px;
   border-radius: 10px;
-  position: absolute;
+  position: fixed;
   height: 330px;
   width: 394px;
   background-color: #fff;
@@ -73,4 +73,33 @@
   background-color: #000;
   color: #fff;
   border-radius: 2px;
+  font-family: "Inter", "Arial", "sans-serif";
+}
+
+@media screen and (max-width: 580px) {
+  .modal__container {
+    height: 322px;
+    width: 282px;
+    padding: 25px 22px 0px 22px;
+  }
+
+  .modal__close {
+    width: 26px;
+    height: 26px;
+    width: 238;
+    top: -73px;
+  }
+  .modal__heading {
+    font-size: 18px;
+    width: 238px;
+    height: 22px;
+  }
+
+  .modal__form {
+    width: 238px;
+  }
+
+  .modal__button {
+    width: 238px;
+  }
 }
