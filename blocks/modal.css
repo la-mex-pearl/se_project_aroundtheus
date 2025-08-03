@@ -18,11 +18,14 @@
 }
 
 .modal__container {
-  background-color: #fff;
-
-  padding: 36px;
+  display: grid;
+  justify-content: center;
+  padding: 36px 36px 0px 36px;
   border-radius: 10px;
-  position: relative;
+  position: absolute;
+  height: 330px;
+  width: 394px;
+  background-color: #fff;
 }
 
 .modal__heading {
