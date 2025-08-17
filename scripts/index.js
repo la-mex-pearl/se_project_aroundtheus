@@ -36,7 +36,7 @@ const profileDescriptionInput = document.querySelector(
 );
 
 profileEditButton.addEventListener("click", () => {
-  profileEditButton.classList.add("modal_opened");
+  profileEditModal.classList.add("modal_opened");
 });
 
 modalCloseButton.addEventListener("click", () => {
