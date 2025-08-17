@@ -28,6 +28,9 @@ let initialCards = [
 const profileEditButton = document.querySelector("#js-profile-edit-button");
 const profileEditModal = document.querySelector("#profile-edit-modal");
 const modalCloseButton = profileEditModal.querySelector(".modal__close");
+const profileTitle = document.querySelector(".profile__title");
+const profileDescription = document.querySelector(".profile-__description");
+const profileTitleInput = 
 
 profileEditButton.addEventListener("click", () => {
   profileEditButton.classList.add("modal_opened");
