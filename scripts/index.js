@@ -30,7 +30,10 @@ const profileEditModal = document.querySelector("#profile-edit-modal");
 const modalCloseButton = profileEditModal.querySelector(".modal__close");
 const profileTitle = document.querySelector(".profile__title");
 const profileDescription = document.querySelector(".profile-__description");
-const profileTitleInput = 
+const profileTitleInput = document.querySelector("#profile-name-input");
+const profileDescriptionInput = document.querySelector(
+  "#profile-description-input"
+);
 
 profileEditButton.addEventListener("click", () => {
   profileEditButton.classList.add("modal_opened");
