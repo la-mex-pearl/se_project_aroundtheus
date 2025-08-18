@@ -51,5 +51,6 @@ profileEditCloseButton.addEventListener("click", () => {
     e.preventDefault();
     profileTitle.textContent = profileTitleInput.value;
     profileDescription.textContent = profileDescriptionInput.value;
+    profileEditModal.classList.remove("modal_opened");
   }),
 ];
