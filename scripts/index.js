@@ -35,8 +35,6 @@ const profileDescriptionInput = document.querySelector(
   "#profile-description-input"
 );
 
-console.log(profileEditButton);
-
 const profileEditForm = profileEditModal.querySelector(".modal__form");
 
 function closePopup() {
@@ -44,9 +42,9 @@ function closePopup() {
 }
 
 profileEditButton.addEventListener("click", () => {
+  profileEditModal.classList.add("modal_opened");
   profileTitleInput.value = profileTitle.textContent;
   profileDescriptionInput.value = profileDescription.textContent;
-  profileEditModal.classList.add("modal_opened");
 });
 
 profileEditCloseButton.addEventListener("click", () => {
