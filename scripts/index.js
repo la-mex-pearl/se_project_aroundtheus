@@ -41,7 +41,7 @@ function closePopup() {
   profileEditModal.classList.remove("modal_opened");
 }
 
-profileEditButton.addEventListener('click', () => {
+profileEditButton.addEventListener("click", () => {
   profileEditModal.classList.add("modal_opened");
   profileTitleInput.value = profileTitle.textContent;
   profileDescriptionInput.value = profileDescription.textContent;
