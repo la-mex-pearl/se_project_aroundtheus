@@ -25,6 +25,9 @@
 }
 
 .modal__title {
+  padding: 0px 0px 54px;
+
+  margin: 0;
   font-family: "Inter", "Arial", "sans-serif";
   font-size: 24px;
   font-weight: 900;
