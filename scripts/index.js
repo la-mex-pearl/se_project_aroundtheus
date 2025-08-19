@@ -37,7 +37,7 @@ const profileDescriptionInput = document.querySelector(
 );
 
 const profileEditForm = profileEditModal.querySelector(".modal__form");
-
+const cardTemplate = document.querySelector("#card-template").content;
 
 /* Functions */
 
@@ -45,15 +45,12 @@ function closePopup() {
   profileEditModal.classList.remove("modal__opened");
 }
 
-
-
 /* Event Handlers */
-function handleProfileEditSubmit (e) {
-   e.preventDefault();
+function handleProfileEditSubmit(e) {
+  e.preventDefault();
   profileTitle.textContent = profileTitleInput.value;
   profileDescription.textContent = profileDescriptionInput.value;
   closePopup();
-
 }
 /* Event Listeners */
 
