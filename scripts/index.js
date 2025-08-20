@@ -44,14 +44,13 @@ const cardTemplate =
 
 /* Functions */
 
-function closePopup() {
-  popup.classList.remove("modal__opened");
-}
-
 function openPopup(popup) {
   popup.classList.add("modal__opened");
 }
 
+function closePopup(popup) {
+  popup.classList.remove("modal__opened");
+}
 function getCardElement(cardData) {
   const cardElement = cardTemplate.cloneNode(true);
   const cardImageEl = cardElement.querySelector(".card__image");
